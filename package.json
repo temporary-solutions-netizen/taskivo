@@ -42,3 +42,9 @@
     "tailwindcss": "^3.0.24"
   }
 }
+"homepage": "https://temporary-solutions-netizen.github.io/taskivo",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  //... other scripts
+}
